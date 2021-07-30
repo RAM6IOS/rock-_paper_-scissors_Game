@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0460BFFE26B4813C006BBD36 /* ock_paper_scissors_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460BFFD26B4813C006BBD36 /* ock_paper_scissors_projectApp.swift */; };
+		0460C00026B4813C006BBD36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460BFFF26B4813C006BBD36 /* ContentView.swift */; };
+		0460C00226B48140006BBD36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0460C00126B48140006BBD36 /* Assets.xcassets */; };
+		0460C00526B48140006BBD36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0460C00426B48140006BBD36 /* Preview Assets.xcassets */; };
+		0460C00F26B48141006BBD36 /* ock_paper_scissors_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460C00E26B48141006BBD36 /* ock_paper_scissors_projectTests.swift */; };
+		0460C01926B48141006BBD36 /* ock_paper_scissors_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460C01826B48141006BBD36 /* ock_paper_scissors_projectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0460C00B26B48141006BBD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0460BFF226B4813B006BBD36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0460BFF926B4813C006BBD36;
+			remoteInfo = "ock-paper-scissors project";
+		};
+		0460C01526B48141006BBD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0460BFF226B4813B006BBD36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0460BFF926B4813C006BBD36;
+			remoteInfo = "ock-paper-scissors project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0460BFFA26B4813C006BBD36 /* ock-paper-scissors project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ock-paper-scissors project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0460BFFD26B4813C006BBD36 /* ock_paper_scissors_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ock_paper_scissors_projectApp.swift; sourceTree = "<group>"; };
+		0460BFFF26B4813C006BBD36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0460C00126B48140006BBD36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0460C00426B48140006BBD36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0460C00A26B48141006BBD36 /* ock-paper-scissors projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ock-paper-scissors projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0460C00E26B48141006BBD36 /* ock_paper_scissors_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ock_paper_scissors_projectTests.swift; sourceTree = "<group>"; };
+		0460C01426B48141006BBD36 /* ock-paper-scissors projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ock-paper-scissors projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0460C01826B48141006BBD36 /* ock_paper_scissors_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ock_paper_scissors_projectUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0460BFF726B4813C006BBD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0460C00726B48141006BBD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0460C01126B48141006BBD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0460BFF126B4813B006BBD36 = {
+			isa = PBXGroup;
+			children = (
+				0460BFFC26B4813C006BBD36 /* ock-paper-scissors project */,
+				0460C00D26B48141006BBD36 /* ock-paper-scissors projectTests */,
+				0460C01726B48141006BBD36 /* ock-paper-scissors projectUITests */,
+				0460BFFB26B4813C006BBD36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0460BFFB26B4813C006BBD36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0460BFFA26B4813C006BBD36 /* ock-paper-scissors project.app */,
+				0460C00A26B48141006BBD36 /* ock-paper-scissors projectTests.xctest */,
+				0460C01426B48141006BBD36 /* ock-paper-scissors projectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0460BFFC26B4813C006BBD36 /* ock-paper-scissors project */ = {
+			isa = PBXGroup;
+			children = (
+				0460BFFD26B4813C006BBD36 /* ock_paper_scissors_projectApp.swift */,
+				0460BFFF26B4813C006BBD36 /* ContentView.swift */,
+				0460C00126B48140006BBD36 /* Assets.xcassets */,
+				0460C00326B48140006BBD36 /* Preview Content */,
+			);
+			path = "ock-paper-scissors project";
+			sourceTree = "<group>";
+		};
+		0460C00326B48140006BBD36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0460C00426B48140006BBD36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0460C00D26B48141006BBD36 /* ock-paper-scissors projectTests */ = {
+			isa = PBXGroup;
+			children = (
+				0460C00E26B48141006BBD36 /* ock_paper_scissors_projectTests.swift */,
+			);
+			path = "ock-paper-scissors projectTests";
+			sourceTree = "<group>";
+		};
+		0460C01726B48141006BBD36 /* ock-paper-scissors projectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0460C01826B48141006BBD36 /* ock_paper_scissors_projectUITests.swift */,
+			);
+			path = "ock-paper-scissors projectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0460BFF926B4813C006BBD36 /* ock-paper-scissors project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0460C01C26B48141006BBD36 /* Build configuration list for PBXNativeTarget "ock-paper-scissors project" */;
+			buildPhases = (
+				0460BFF626B4813C006BBD36 /* Sources */,
+				0460BFF726B4813C006BBD36 /* Frameworks */,
+				0460BFF826B4813C006BBD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ock-paper-scissors project";
+			productName = "ock-paper-scissors project";
+			productReference = 0460BFFA26B4813C006BBD36 /* ock-paper-scissors project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0460C00926B48141006BBD36 /* ock-paper-scissors projectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0460C01F26B48141006BBD36 /* Build configuration list for PBXNativeTarget "ock-paper-scissors projectTests" */;
+			buildPhases = (
+				0460C00626B48141006BBD36 /* Sources */,
+				0460C00726B48141006BBD36 /* Frameworks */,
+				0460C00826B48141006BBD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0460C00C26B48141006BBD36 /* PBXTargetDependency */,
+			);
+			name = "ock-paper-scissors projectTests";
+			productName = "ock-paper-scissors projectTests";
+			productReference = 0460C00A26B48141006BBD36 /* ock-paper-scissors projectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0460C01326B48141006BBD36 /* ock-paper-scissors projectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0460C02226B48141006BBD36 /* Build configuration list for PBXNativeTarget "ock-paper-scissors projectUITests" */;
+			buildPhases = (
+				0460C01026B48141006BBD36 /* Sources */,
+				0460C01126B48141006BBD36 /* Frameworks */,
+				0460C01226B48141006BBD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0460C01626B48141006BBD36 /* PBXTargetDependency */,
+			);
+			name = "ock-paper-scissors projectUITests";
+			productName = "ock-paper-scissors projectUITests";
+			productReference = 0460C01426B48141006BBD36 /* ock-paper-scissors projectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0460BFF226B4813B006BBD36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					0460BFF926B4813C006BBD36 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					0460C00926B48141006BBD36 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 0460BFF926B4813C006BBD36;
+					};
+					0460C01326B48141006BBD36 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 0460BFF926B4813C006BBD36;
+					};
+				};
+			};
+			buildConfigurationList = 0460BFF526B4813B006BBD36 /* Build configuration list for PBXProject "ock-paper-scissors project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0460BFF126B4813B006BBD36;
+			productRefGroup = 0460BFFB26B4813C006BBD36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0460BFF926B4813C006BBD36 /* ock-paper-scissors project */,
+				0460C00926B48141006BBD36 /* ock-paper-scissors projectTests */,
+				0460C01326B48141006BBD36 /* ock-paper-scissors projectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0460BFF826B4813C006BBD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0460C00526B48140006BBD36 /* Preview Assets.xcassets in Resources */,
+				0460C00226B48140006BBD36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0460C00826B48141006BBD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0460C01226B48141006BBD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0460BFF626B4813C006BBD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0460C00026B4813C006BBD36 /* ContentView.swift in Sources */,
+				0460BFFE26B4813C006BBD36 /* ock_paper_scissors_projectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0460C00626B48141006BBD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0460C00F26B48141006BBD36 /* ock_paper_scissors_projectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0460C01026B48141006BBD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0460C01926B48141006BBD36 /* ock_paper_scissors_projectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0460C00C26B48141006BBD36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0460BFF926B4813C006BBD36 /* ock-paper-scissors project */;
+			targetProxy = 0460C00B26B48141006BBD36 /* PBXContainerItemProxy */;
+		};
+		0460C01626B48141006BBD36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0460BFF926B4813C006BBD36 /* ock-paper-scissors project */;
+			targetProxy = 0460C01526B48141006BBD36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0460C01A26B48141006BBD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0460C01B26B48141006BBD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0460C01D26B48141006BBD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ock-paper-scissors project/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BMR.ock-paper-scissors-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0460C01E26B48141006BBD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ock-paper-scissors project/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BMR.ock-paper-scissors-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0460C02026B48141006BBD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BMR.ock-paper-scissors-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ock-paper-scissors project.app/ock-paper-scissors project";
+			};
+			name = Debug;
+		};
+		0460C02126B48141006BBD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BMR.ock-paper-scissors-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ock-paper-scissors project.app/ock-paper-scissors project";
+			};
+			name = Release;
+		};
+		0460C02326B48141006BBD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BMR.ock-paper-scissors-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ock-paper-scissors project";
+			};
+			name = Debug;
+		};
+		0460C02426B48141006BBD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BMR.ock-paper-scissors-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ock-paper-scissors project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0460BFF526B4813B006BBD36 /* Build configuration list for PBXProject "ock-paper-scissors project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0460C01A26B48141006BBD36 /* Debug */,
+				0460C01B26B48141006BBD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0460C01C26B48141006BBD36 /* Build configuration list for PBXNativeTarget "ock-paper-scissors project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0460C01D26B48141006BBD36 /* Debug */,
+				0460C01E26B48141006BBD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0460C01F26B48141006BBD36 /* Build configuration list for PBXNativeTarget "ock-paper-scissors projectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0460C02026B48141006BBD36 /* Debug */,
+				0460C02126B48141006BBD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0460C02226B48141006BBD36 /* Build configuration list for PBXNativeTarget "ock-paper-scissors projectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0460C02326B48141006BBD36 /* Debug */,
+				0460C02426B48141006BBD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0460BFF226B4813B006BBD36 /* Project object */;
+}
